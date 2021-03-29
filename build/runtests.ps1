@@ -1,3 +1,3 @@
 dir
-.\build\opa.exe test ..\rules -v -c
+.\build\opa.exe test .\rules -v -c
 
