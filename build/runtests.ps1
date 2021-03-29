@@ -1,2 +1,2 @@
-.\opa test ..\rules -v -c
+.\opa.exe test ..\rules -v -c
 
