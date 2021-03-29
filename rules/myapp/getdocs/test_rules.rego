@@ -9,3 +9,6 @@ test_not_allow_small {
     not data.myapp.getdocs.allow
     with input.label as "small"
 }
+test_fails {
+    false
+}
