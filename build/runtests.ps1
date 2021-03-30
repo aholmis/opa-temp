@@ -4,6 +4,6 @@ $ErrorActionPreference = "Stop"
 
 if($LASTEXITCODE -ne 0)
 {
-    ##teamcity[buildStatus status='FAILURE' text='{build.status.text}: Test(s) failed.']
-    write-error "Test failure detected."
+    "##teamcity[buildStatus status='FAILURE' text='{build.status.text}: Test(s) failed.']"
+    # write-error "Test failure detected."
 }
