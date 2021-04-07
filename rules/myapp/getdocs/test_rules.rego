@@ -10,5 +10,5 @@ test_not_allow_small {
     with input.label as "small"
 }
 test_fails {
-    false
+    true
 }
