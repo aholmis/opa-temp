@@ -2,5 +2,5 @@
 
 if($LASTEXITCODE -ne 0)
 {
-    "##teamcity[buildStatus status='FAILURE' text='{build.status.text}: Test(s) failed, or test coverage too low.']"
+    "##teamcity[buildStatus status='FAILURE' text='{build.status.text}: Test(s) failed, or test coverage too low. Please inspect build log for more info.']"
 }
